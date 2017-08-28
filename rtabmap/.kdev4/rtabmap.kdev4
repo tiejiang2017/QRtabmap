@@ -1,0 +1,52 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0e\x00r\x00t\x00a\x00b\x00m\x00a\x00p)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/xtx/workspace/rtabmap/build
+Build Type=
+CMake Binary=file:///usr/local/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Compiled Binary Launcher
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Debugger Shell=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+Display Demangle Names=true
+Display Static Members=true
+EnvironmentGroup=
+Executable=file:///home/xtx/workspace/rtabmap/bin/rtabmap
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+GDB Path=file:///home/xtx/workspace/rtabmap/bin/rtabmap
+Project Target=rtabmap,utilite,resource_generator,res_tool
+Remote GDB Config Script=
+Remote GDB Run Script=
+Remote GDB Shell Script=
+Start With=ApplicationOutput
+Use External Terminal=false
+Working Directory=file:///home/xtx/workspace/rtabmap/bin
+isExecutable=true
+
+[Project]
+VersionControlSupport=kdevgit
